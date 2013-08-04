@@ -1,0 +1,19 @@
+{
+  "name": "sorted-key-buckets",
+  "description": "Map a key to a bucket where the keys assigned to each bucket must be sorted. Creates new buckets as needed. used to make sorted string tables.",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/soldair/node-sorted-key-buckets.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Ryan Day",
+  "dependencies": {
+    "binarysearch": "~0.2.1"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  }
+}
