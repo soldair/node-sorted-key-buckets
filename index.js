@@ -1,4 +1,4 @@
-// i have to pick the budket has the closest less than key
+// i have to pick the bucket has the closest less than key
 
 var bs = require('binarysearch');
 
@@ -20,6 +20,10 @@ module.exports = function(search,ranges){
   }
 
   return data;
+}
+
+module.exports.insert = function(range){
+  bs.insert(ranges,range,comparitor);
 }
 
 function comparitor(o,v){
