@@ -22,7 +22,7 @@ module.exports = function(search,ranges){
   return data;
 }
 
-module.exports.insert = function(range){
+module.exports.insert = function(range,ranges){
   bs.insert(ranges,range,comparitor);
 }
 

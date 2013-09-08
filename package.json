@@ -2,7 +2,7 @@
   "name": "sorted-key-buckets",
   "description": "Map a key to a bucket where the keys assigned to each bucket must be sorted. Creates new buckets as needed. used to make sorted string tables.",
   "keywords":["SST","sorted","string","table","key","range"],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": "git://github.com/soldair/node-sorted-key-buckets.git"
   },
